@@ -1,4 +1,5 @@
-# Project Name- Avalanche-Subnets
+# Assessment of Avalanche Subnets
+
 # Process or steps to be followed
 1- Deploy your EVM subnet using the Avalanche CLI
 
@@ -56,10 +57,7 @@ The `Vault` contract acts as a vault for storing ERC-20 tokens securely. It impl
    - Allows users to withdraw ERC-20 tokens from the vault by burning shares.
    - It calculates the amount of tokens to be withdrawn based on the number of shares burned.
 
-### **State Variables**
-- **`token`**: Stores the address of the ERC-20 token that the vault holds.
-- **`totalSupply`**: Tracks the total number of shares in the vault.
-- **`balanceOf`**: A mapping that records the number of shares held by each user.
 
-## Author
-Anandu Singh
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
